@@ -1,23 +1,19 @@
-public class DataTypesExample {
+class datatypes {
     public static void main(String[] args) {
-       
-        byte byteVar = 127;
-        short shortVar = 32767;
-        int intVar = 2147483647;
-        long longVar = 9223372036854775807L;
-        float floatVar = 123.45f;
-        double doubleVar = 456.789;
-        char charVar = 'A';
-        boolean boolVar = true;
 
-    
-        System.out.println("Byte: " + byteVar);
-        System.out.println("Short: " + shortVar);
-        System.out.println("Int: " + intVar);
-        System.out.println("Long: " + longVar);
-        System.out.println("Float: " + floatVar);
-        System.out.println("Double: " + doubleVar);
-        System.out.println("Char: " + charVar);
-        System.out.println("Boolean: " + boolVar);
+        byte singleByte = 100;
+        short smallNumber = 20000;
+        int integer = 344354;
+        long largeNumber = 6754735683465L;
+
+        double doubleNumber = 1.2344;
+        float floatNumber = 3.343F;
+
+        boolean weekend = false;
+        boolean weekday = true;
+
+        char copyRight = '\u00A9';
+
+        System.out.println("this is the symbol for copyright" + copyRight);
     }
 }
