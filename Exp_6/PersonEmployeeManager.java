@@ -44,3 +44,15 @@ public class PersonEmployeeManager {
         }
     }
 }
+// OVERRIDE :
+// public class animal{
+// public void makeSound(){
+// System.out.println("Animal make sounds");
+// }
+// }
+
+// public class dog extends animal{
+// public static void main(String[] args) {
+// System.out.println("bow bow");
+// }
+// }
